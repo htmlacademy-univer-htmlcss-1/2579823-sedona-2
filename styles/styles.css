@@ -1,0 +1,141 @@
+﻿@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+/* PT Sans полужирный */
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #242424;
+  background-color: #F2F2F2;
+}
+
+main {
+  text-align: center;
+}
+
+.wrap {
+  background-color: #ffffff;
+
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: inherit;
+  background-color: inherit;
+  text-decoration: none;
+}
+
+.button {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.button-grey {
+  background-color: #756257;
+}
+.welcome-split {
+  background-image: url("../images/index-background.jpg");
+  /* width: 1200px; */
+  height: 485px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.slogan {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: inherit;
+  background-color: inherit;
+  text-decoration: none;
+}
+
+.advantages-header {
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: inherit;
+  color: #333333;
+}
+
+.advantages-item {
+  background-color: #83B3D31F;
+}
+
+.advantages-item-light20 {
+  background-color: #83B3D333;
+}
+
+.advantages-item-blue {
+  color: #ffffff;
+  background-color: #83B3D3;
+
+}
+
+.advices {
+  background-color: #83B3D31F;
+  color: #333333;
+}
+
+.advices-title {
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.advices-white {
+  background-color: #ffffff;
+}
+
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.ineresting {
+  font-size: 30px;
+  line-height: 36px;
+  color: inherit;
+  background-color: inherit;
+}
+
+.newsletter {
+  background-image: url("../images/background-newsletter.jpg");
+  width: 1200px;
+  height: 411px;
+}
+
+.catalog-hotels {
+  background-image: url("../images/background-catalog.jpg");
+  width: 1200px;
+  height: 408px;
+}
+
+li{
+  list-style-type: none;
+}
+
+.visually-hidden{
+  <!--display: none; -->
+}
